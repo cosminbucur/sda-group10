@@ -1,8 +1,24 @@
 package randomizer;
 
+import java.util.Scanner;
+
 public class MainController {
 
-    private PersonRepository repository = new PersonRepository();
+    // manual instantiation
+//    private PersonRepository repository = new PersonRepository();
+//    private Scanner scanner = new Scanner(System.in);
+//    private Menu menu = new Menu();
+
+    private PersonRepository repository;
+    private Scanner scanner;
+    private Menu menu;
+
+    // dependency injection
+    public MainController(PersonRepository repository, Scanner scanner, Menu menu) {
+        this.repository = repository;
+        this.scanner = scanner;
+        this.menu = menu;
+    }
 
     public void dispatch(int option) {
 
@@ -17,8 +33,8 @@ public class MainController {
                 default:
                     System.out.println("select an option option from above");
             }
-
+            menu.buildMenu();
+            option = scanner.nextInt();
         }
-
     }
 }
