@@ -19,6 +19,9 @@ The project contains multiple sub modules, each with a similar structure:
 - generics
 - collections
 - io
+- threads
+- lambda
+- streams
 
 ### java-advanced-code
 
