@@ -56,7 +56,7 @@ public class PersonRepository {
         people.remove(nextPerson);
     }
 
-    // TODO move this to utils
+    // TODO move this to utils class
     private int getRandomNumberInRange(int min, int max) {
         Random random = new Random();
         return random.nextInt((max - min) + 1 + min);

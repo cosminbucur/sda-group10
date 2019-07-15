@@ -27,6 +27,20 @@ The project contains multiple sub modules, each with a similar structure:
 
 - randomizer
 
+### design patterns
+
+- cohesion
+- coupling
+- fluent
+
+##### GRASP
+- controller
+- expert
+- creator
+
+##### SOLID
+
+
 ---
 
 ## How to get it on your computer

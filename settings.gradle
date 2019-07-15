@@ -1,4 +1,5 @@
 rootProject.name = 'group10'
 include 'java-advanced-code'
 include 'java-advanced'
+include 'design-patterns'
 
