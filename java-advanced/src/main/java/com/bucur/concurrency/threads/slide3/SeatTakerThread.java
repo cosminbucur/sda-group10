@@ -1,4 +1,4 @@
-package com.bucur.concurency.threads.slide3;
+package com.bucur.concurrency.threads.slide3;
 
 public class SeatTakerThread extends Thread {
 

@@ -1,6 +1,6 @@
-package com.bucur.concurency.threads.slide1;
+package com.bucur.concurrency.threads.slide2;
 
-public class StopWatchThread extends Thread {
+public class StopWatchThread implements Runnable {
 
     @Override
     public void run() {

@@ -1,4 +1,4 @@
-package com.bucur.concurency.threads.slide1;
+package com.bucur.concurrency.threads.slide1;
 
 public class DemoSlide1 {
 
