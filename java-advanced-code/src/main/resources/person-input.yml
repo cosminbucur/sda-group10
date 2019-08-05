@@ -1,0 +1,11 @@
+# Details of a employee
+---
+name: Test Employee
+age: 30
+birthday: 1980-07-12
+address:
+  line: My Address Line 1
+  zip: 20000
+roles:
+  - USER
+  - ADMIN
