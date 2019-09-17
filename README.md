@@ -45,6 +45,13 @@ The project contains multiple sub modules, each with a similar structure:
 - interface segregation
 - dependency inversion
 
+##### Java FX
+- containers
+- components
+- properties
+- events
+- FXML
+
 ---
 
 ## How to get it on your computer
