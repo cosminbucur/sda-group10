@@ -52,6 +52,33 @@ The project contains multiple sub modules, each with a similar structure:
 - events
 - FXML
 
+##### Spring Core
+- config
+- beans
+- scope
+- autowired
+- qualifier
+
+##### Spring Boot 2
+- command line runner
+- auto config
+
+##### Spring Data JPA
+- domain architecture
+- layered architecture
+- repository
+    - crud repository
+    - paging and sorting repository
+    - jpa repository
+- validation
+- repository pattern
+
+##### Spring MVC
+
+##### Spring Thymeleaf
+
+##### Spring Security
+
 ---
 
 ## How to get it on your computer
