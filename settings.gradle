@@ -9,4 +9,5 @@ include 'spring-data-jpa'
 include 'spring-mvc'
 include 'spring-thymeleaf'
 include 'spring-security'
+include 'spring-boot-jsp'
 

@@ -12,6 +12,7 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '2.2.0.RELEASE'
     id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'war'
 }
 
 java {
@@ -26,28 +27,19 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-
-    // starter for building web applications using Spring MVC. Uses Tomcat as the default embedded container
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
-//    implementation 'javax.validation:validation-api:2.0.1.Final'
-//    implementation 'org.hibernate.validator:hibernate-validator:6.1.0.Final'
+    // compiles jsp pages
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.27'
 
-    // JSP Standard Tag Library
     implementation 'javax.servlet.jsp.jstl:jstl:1.2'
-
-    // Java Server Pages api
     implementation 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.3'
-
-    // An implementation of the JSP Standard Tag Library (JSTL).
     implementation 'org.apache.taglibs:taglibs-standard-impl:1.2.5'
 
-    implementation 'javax.servlet:javax.servlet-api:4.0.1'
+    implementation 'org.webjars:bootstrap:4.3.1'
 
-    runtimeOnly 'mysql:mysql-connector-java:8.0.16'
-//    runtime 'com.h2database:h2'
+//    runtimeOnly 'mysql:mysql-connector-java:8.0.16'
+    runtimeOnly 'com.h2database:h2'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
