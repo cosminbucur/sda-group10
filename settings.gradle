@@ -10,4 +10,5 @@ include 'spring-mvc'
 include 'spring-thymeleaf'
 include 'spring-security'
 include 'spring-boot-jsp'
+include 'spring-mvc-hibernate'
 
