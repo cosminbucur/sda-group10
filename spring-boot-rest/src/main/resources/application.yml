@@ -1,0 +1,14 @@
+spring:
+  # override the default data source configuration
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.H2Dialect
+      show_sql: true
+    properties.hibernate.format_sql: true
+  h2.console.enabled: true # the JDBC URL is jdbc:h2:mem:testdb
