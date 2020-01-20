@@ -46,6 +46,13 @@ public class BookBetterController {
         return new ResponseEntity<>(bookResponse, HttpStatus.OK);
     }
 
+    @GetMapping("/search")
+    public List<BookResponse> getBooksByAuthor(@RequestParam("author") String author) {
+        log.info("get all books by author...");
+
+        return bookService.findByAuthor(author);
+    }
+
     // TODO: validate this
     @PostMapping
     // the create book type - method name - book details
