@@ -1,4 +1,4 @@
-rootProject.name = 'group10'
+rootProject.name = 'sda-group10'
 include 'java-advanced-code'
 include 'java-advanced'
 include 'design-patterns'
